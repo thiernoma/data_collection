@@ -220,6 +220,6 @@ elif selected_option == "Visualiser les données":
 # Mode Formulaire
 elif selected_option == "Noter l'application":
     st.header("⭐ Évaluation")
-    if st.button("Ouvrir le formulaire d'évaluation"):
-        webbrowser.open_new_tab("https://ee.kobotoolbox.org/x/JO5GM8b2")
-        st.success("Formulaire ouvert dans un nouvel onglet!")
+    
+    st.markdown("[Cliquez ici pour ouvrir le formulaire d'évaluation](https://ee.kobotoolbox.org/x/JO5GM8b2)")
+    
